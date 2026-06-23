@@ -1,6 +1,7 @@
 # coldtrace
 
 `coldtrace` is a small Rust CLI for learning Linux process/runtime behavior by tracing cold starts of ML-ish workloads.
+You can find a write up about this [here](https://arjunpherwani.dev/projects/coldtrace/).
 
 The first target workload is:
 
