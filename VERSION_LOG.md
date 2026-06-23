@@ -4,6 +4,22 @@ This log tracks `coldtrace` by project version and commit.
 
 Commit is `pending` until the version is committed.
 
+## 0.0.7 - Docs Split
+
+Commit: pending
+Date: 2026-06-23
+
+### Changed
+
+- Trimmed README to project summary, current behavior, usage, and doc links.
+- Moved detailed C0 record shape, exit semantics, project layout, Lima workflow, non-goals, and `/proc` notes to `docs/c0-details.md`.
+- Bumped crate version to `0.0.7`.
+
+### Verified
+
+- `cargo test`
+- `limactl shell devbox -- bash -lc 'cd /Users/arjunpherwani/dev/coldtrace && cargo test'`
+
 ## 0.0.6 - README
 
 Commit: pending
